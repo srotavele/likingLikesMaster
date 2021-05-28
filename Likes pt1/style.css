@@ -1,0 +1,29 @@
+.usercard {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  /* font-size: x-large;
+  font-weight: bold; */
+  background: #c21500; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ffc500, #c21500);
+  background: linear-gradient(to left, #ffc500, #c21500);
+  border: solid 3px black;
+  height: 100px;
+  width: 400px;
+  justify-content: space-between;
+  display: flex;
+  align-items: baseline;
+}
+#likeme {
+  font-family: monospace;
+  font-size: large;
+  font-weight: lighter;
+  margin-left: 150px;
+  display: flex;
+}
+
+.btn {
+  background-color: gold;
+  border: solid 2.5px black;
+  box-shadow: 4px 4px black;
+  margin: 5px 5px;
+  display: flex;
+}

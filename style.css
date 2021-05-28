@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* outline: 2px solid red; */
+}
+
+.container {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.topbar {
+  display: flex;
+  background: #616161; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #9bc5c3, #616161);
+  background: linear-gradient(to right, #9bc5c3, #616161);
+  height: 40px;
+  align-items: center;
+  padding: 5px;
+  font-family: monospace;
+}
+
+.header_yourFeed {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.main_content {
+  display: flex;
+  justify-content: center;
+}
+
+.column_left {
+  width: 40px;
+  height: 500px;
+  flex: 1;
+  flex-direction: column;
+}
+
+.profile_box {
+  background: #50c9c3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #96deda, #50c9c3);
+  background: linear-gradient(to right, #96deda, #50c9c3);
+  border: solid 2px black;
+  height: 250px;
+  width: 175px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user_img {
+  background: #efefbb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d4d3dd, #efefbb);
+  background: linear-gradient(to right, #d4d3dd, #efefbb);
+  width: 50px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.jdough {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.column_right {
+  width: 40px;
+  height: 500px;
+  flex: 2;
+  flex-direction: column;
+}
+
+.neil {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  height: 100px;
+  background: #c21500; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ffc500, #c21500);
+  background: linear-gradient(to left, #ffc500, #c21500);
+  border: solid 3px black;
+  padding: 5px;
+}
+
+.nichole {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  background: #5d4157; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #a8caba, #5d4157);
+  background: linear-gradient(to right, #a8caba, #5d4157);
+  margin-top: 15px;
+  border: solid 3px black;
+  height: 100px;
+  padding: 5px;
+}
+
+.jim {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  background: #649173; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #dbd5a4, #649173);
+  background: linear-gradient(to right, #dbd5a4, #649173);
+  margin-top: 15px;
+  border: solid 3px black;
+  height: 100px;
+  padding: 5px;
+}
+
+.x_card {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.x_pitch {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.btn {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  background-color: gold;
+  height: 20px;
+  width: 50px;
+  border: solid 2px black;
+  box-shadow: 4px 4px black;
+  margin: 3px 3px;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
